@@ -1,0 +1,20 @@
+{
+  "name": "pms-api",
+  "version": "1.0.1",
+  "description": "pms光棱系统api请求工具,只需简单配置即可使用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pms",
+    "api",
+    "pms-api"
+  ],
+  "author": "luykin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0"
+  }
+}
