@@ -75,7 +75,7 @@ export function creatNetTool(UAID, apiSecret, baseUrl, tipsFunction, errorPath =
         try {
             let retData = {...rtContent['carryBody']};
             for (let key in data) {
-                if (data[key] || data[key] === 0) {
+                if (data[key] || typeof data[key] !== "object") {
                     retData[key] = data[key]
                 }
             }
